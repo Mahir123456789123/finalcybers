@@ -65,6 +65,7 @@ const SuspiciousURLChecker = () => {
           width: "300px",
           borderRadius: "5px",
           border: "1px solid #ccc",
+          color: "black", // Set text color to black
         }}
       />
       <br />

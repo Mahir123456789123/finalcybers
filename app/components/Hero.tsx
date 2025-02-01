@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/cybersecurity-bg.jpg"
-          alt="Cybersecurity Background"
+          alt=" "
           layout="fill"
           objectFit="cover"
           className="opacity-30"
