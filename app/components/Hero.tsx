@@ -2,6 +2,8 @@
 
 import Button from "./Button";
 import Image from "next/image";
+//import InteractiveGrid from "./animata/bento-grid/interactive-grid";
+import ThemeToggle from "./theme-toggle";
 
 export default function Hero() {
   return (
@@ -20,7 +22,7 @@ export default function Hero() {
           <h1 className="text-5xl md:text-7xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600 animate-pulse">
             Protecting India's Digital Frontier
           </h1>
-          <p className="text-xl mb-8 text-gray-300 max-w-2xl mx-auto">
+          <p className="text-xl mb-8 text-black-300 max-w-2xl mx-auto">
             Join the fight against cybercrime. Report incidents, access
             resources, and stay informed about online safety.
           </p>

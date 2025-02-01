@@ -3,6 +3,8 @@
 import { Shield, FileText, Phone, Users, Lock, Zap } from "lucide-react";
 import Card from "./Card";
 import Image from "next/image";
+import InteractiveGrid from "./animata/bento-grid/interactive-grid";
+
 
 const features = [
   {
@@ -10,28 +12,28 @@ const features = [
     title: "Secure Reporting",
     description:
       "Report cybercrimes securely and anonymously through our encrypted platform.",
-    //image: "/secure-reporting.jpg",
+      image:"./Assets/shield-plus"
   },
   {
     icon: FileText,
     title: "Resource Center",
     description:
       "Access a wealth of information on cybersecurity best practices and current threats.",
-    //image: "/resource-center.jpg",
+    image: "/resource-center.jpg",
   },
   {
     icon: Phone,
     title: "24/7 Helpline",
     description:
       "Get immediate assistance from our team of cybersecurity experts any time, day or night.",
-    //image: "/helpline.jpg",
+    image: "/helpline.jpg",
   },
   {
     icon: Users,
     title: "Community Support",
     description:
       "Connect with others who have experienced cybercrime and share your story.",
-    // image: "/community-support.jpg",
+     image: "/community-support.jpg",
   },
   {
     icon: Lock,
@@ -51,6 +53,7 @@ const features = [
 
 export default function Features() {
   return (
+    <InteractiveGrid>
     <section id="features" className="py-20 bg-gray-800">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-center text-white mb-12">
@@ -82,5 +85,6 @@ export default function Features() {
         </div>
       </div>
     </section>
+    </InteractiveGrid>
   );
 }

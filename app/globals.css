@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+
+:root {
+  --primary: #d0d4fc;
+  --secondary: #2563EB;
+  --accent: #FACC15;
+  --background: #F3F4F6;
+  --text: #111827;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+button {
+  background-color: var(--primary);
+  color: white;
+}
+
+button:hover {
+  background-color: var(--secondary);
+}
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;
