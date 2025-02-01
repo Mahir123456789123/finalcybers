@@ -7,31 +7,31 @@ import Image from "next/image";
 const features = [
   {
     icon: Shield,
-    title: "Secure Reporting",
+    //title: "",
     description:
       "Report cybercrimes securely and anonymously through our encrypted platform.",
-    //image: "/secure-reporting.jpg",
+    image: "/secure-reporting.jpg",
   },
   {
     icon: FileText,
-    title: "Resource Center",
+    //title: "Resource Center",
     description:
       "Access a wealth of information on cybersecurity best practices and current threats.",
-    //image: "/resource-center.jpg",
+    image: "/resource-center.jpg",
   },
   {
     icon: Phone,
-    title: "24/7 Helpline",
+    //title: "24/7 Helpline",
     description:
       "Get immediate assistance from our team of cybersecurity experts any time, day or night.",
-    //image: "/helpline.jpg",
+    image: "/helpline.jpg",
   },
   {
     icon: Users,
-    title: "Community Support",
+    // title: "Community Support",
     description:
       "Connect with others who have experienced cybercrime and share your story.",
-    // image: "/community-support.jpg",
+    image: "/community-support.jpg",
   },
   {
     icon: Lock,
@@ -65,7 +65,6 @@ export default function Features() {
               <div className="relative h-40 mb-4 rounded-t-lg overflow-hidden">
                 <Image
                   src={feature.image || "/placeholder.svg"}
-                  alt={feature.title}
                   layout="fill"
                   objectFit="cover"
                 />

@@ -9,7 +9,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleEmergencyClick = () => {
-    alert("Emergency hotline: 1800-XXX-XXXX");
+    alert("Emergency hotline: 112");
   };
 
   return (

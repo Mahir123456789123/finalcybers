@@ -40,9 +40,7 @@ export default function Footer() {
             <p className="mt-4 text-sm text-gray-400">
               Email: info@cybershield.gov.in
             </p>
-            <p className="text-sm text-gray-400">
-              Emergency Hotline: 1800-XXX-XXXX
-            </p>
+            <p className="text-sm text-gray-400">Emergency Hotline: 112</p>
           </div>
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">

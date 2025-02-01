@@ -1,12 +1,13 @@
-import Header from "./components/Header"
-import Hero from "./components/Hero"
-import Features from "./components/Features"
-import Statistics from "./components/Statistics"
-import ReportForm from "./components/ReportForm"
-import ResourceCenter from "./components/ResourceCenter"
-import CyberAwarenessQuiz from "./components/CyberAwarenessQuiz"
-import ThreatMap from "./components/ThreatMap"
-import Footer from "./components/Footer"
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Features from "./components/Features";
+import Statistics from "./components/Statistics";
+import ReportForm from "./components/ReportForm";
+import ResourceCenter from "./components/ResourceCenter";
+import CyberAwarenessQuiz from "./components/CyberAwarenessQuiz";
+import ThreatMap from "./components/ThreatMap";
+import Footer from "./components/Footer";
+import SuspiciousURLChecker from "./components/SuspiciousURLChecker";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         {" "}
         {/* Add padding-top to account for sticky header */}
         <Hero />
+        <SuspiciousURLChecker />
         <Features />
         <Statistics />
         <ReportForm />
@@ -25,6 +27,5 @@ export default function Home() {
       </main>
       <Footer />
     </div>
-  )
+  );
 }
-

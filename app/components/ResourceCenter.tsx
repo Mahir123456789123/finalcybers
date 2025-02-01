@@ -8,30 +8,30 @@ import Image from "next/image";
 const resources = [
   {
     icon: Book,
-    title: "Cybersecurity Handbook",
+    title: " ",
     description: "A comprehensive guide to protecting yourself online.",
-    link: "#",
+    link: "https://cybercrime.gov.in/pdf/Cyber%20Security%20Awareness%20Booklet%20for%20Citizens.pdf",
     image: "/cybersecurity-handbook.jpg",
   },
   {
     icon: Video,
-    title: "Video Tutorials",
+    title: " ",
     description: "Learn about cybersecurity through our video series.",
-    link: "#",
+    link: "https://www.youtube.com/watch?v=Dk-ZqQ-bfy4",
     image: "/video-tutorials.jpg",
   },
   {
     icon: FileText,
-    title: "Latest Threat Reports",
+    title: " ",
     description: "Stay informed about the latest cybersecurity threats.",
-    link: "#",
+    link: "https://csis-website-prod.s3.amazonaws.com/s3fs-public/2024-12/241210_Significant_Cyber_Events.pdf?VersionId=6M4z53qCe64xZ4cFQd7nkkTFPrQmeLPB",
     image: "/threat-reports.jpg",
   },
   {
     icon: LinkIcon,
-    title: "Useful Links",
+    title: " ",
     description: "Curated list of cybersecurity resources and tools.",
-    link: "#",
+    link: "https://cybercrime.gov.in/Webform/training-resource.aspx",
     image: "/useful-links.jpg",
   },
 ];
